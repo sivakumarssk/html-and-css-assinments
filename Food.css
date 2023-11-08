@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+  }  
+#food{
+    padding:0px;
+    margin: 0px;
+    background-color: bisque;
+}
+#nav {
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+ .a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#head nav a:hover {
+    background-color: #111;
+    text-align: center;
+  }
+  #food-list a{
+    text-decoration:none;
+    color:black;
+  }
+  #images{
+    width:50%;
+    margin:0 auto;
+  }
+  .labels{
+    margin-left:240px;
+    margin-bottom:40px;
+  }
+  .food-items{
+    width:500px;
+    height:500px;
+  }
